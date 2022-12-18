@@ -10,8 +10,8 @@ let aggrNumber = 0
 let calorieTotalList = [];
 
 inputArray.forEach( (value, index) => {
-    if(value != "") {
-        aggrNumber += Number(value) 
+    if(value !== "") {
+        aggrNumber += Number(value)
     }
     else {
         if(aggrNumber > largestNumber) {
